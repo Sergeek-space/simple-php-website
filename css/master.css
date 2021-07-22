@@ -1,0 +1,159 @@
+h2 {
+    display: block;
+    margin-left: 10px;
+}
+
+.header {
+    overflow: hidden;
+}
+
+#logo-img {
+    float: left;
+    text-align: center;
+    padding: 25px;
+    width: 135px;
+    height: 55px;    
+}
+
+.logo-title {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    line-height: 15px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+#menu {
+    float: right;
+    text-align: center;
+    padding: 30px;
+    line-height: 45px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    /*background-color: greenyellow;*/
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+}
+
+#menu a.active {
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;  
+}
+
+#header-hr {
+    margin-left: -5px;
+    width: 100%;
+    border: none;
+    background-color: greenyellow;
+    padding: 5px;
+    box-shadow: 3px 7px 10px #696969;
+}
+
+.content{
+    margin: 0;
+}
+
+#content-header {
+    padding-left: 10px;
+}
+
+.deals {
+    margin: 0 auto;
+    width: 60em; 
+}
+
+.common {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.polaroid {
+    width:275px;
+    height: 150px;
+    margin: 10px 0px 0px 20px;
+    padding: 10px 12px 110px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+  
+.rotate_right {
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+}
+  
+.rotate_left {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+}
+
+
+.footer {
+    overflow: hidden;
+}
+
+#temp {
+    border: none;
+    margin: 11em auto;
+}
+
+#about {
+    padding: 15px;
+}
+
+#ftr-table {
+    width: 100%;
+    
+}
+#ftr-td {
+    vertical-align: top;
+    padding-top: 5px;
+}
+.fa {
+    padding: 20px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  
+  .fa:hover {
+    opacity: 0.6;
+}
+  
+  .fa-facebook {
+    background: #4160a5;
+    color: white;
+}
+
+  .fa-youtube {
+    background: #ff0000;
+    color: white;
+}
+ 
+  .fa-instagram {
+    background: #156096;
+    color: white;
+}
